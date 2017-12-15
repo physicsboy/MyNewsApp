@@ -1,0 +1,126 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": Array[10][
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Walt Disney buys Murdoch's Fox for $52bn",
+            "description": "Walt Disney says it is to buy 21st Century Fox's entertainment assets for $52.4bn (£39bn)",
+            "url": "http://www.bbc.co.uk/news/business-42353545",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/7A23/production/_97176213_breaking_news_bigger.png",
+            "publishedAt": "2017-12-14T12:14:19Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Trump Russia scandal 'harms US' - Putin",
+            "description": "Opponents of the US president \"invented stories\" to make his work seem illegitimate, says Vladimir Putin.",
+            "url": "http://www.bbc.co.uk/news/world-europe-42349906",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/146AE/production/_99203638_mediaitem99203635.jpg",
+            "publishedAt": "2017-12-14T10:56:23Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Net neutrality: The internet holds its breath",
+            "description": "A Thursday vote will probably lift a protection some believe preserves the very fabric of the internet.",
+            "url": "http://www.bbc.co.uk/news/technology-42348041",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p05r2kly.jpg",
+            "publishedAt": "2017-12-14T11:22:51Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Explainer: What is net neutrality?",
+            "description": "This week the Federal Communications Commission (FCC) will decide on whether to repeal an Obama-era law that protects \"net neutrality\".",
+            "url": "http://www.bbc.co.uk/news/42341736",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/A988/production/_99200434_p05qzsb4.jpg",
+            "publishedAt": "2017-12-14T00:31:04Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Thousands of Rohingya 'killed in a month'",
+            "description": "Medecins Sans Frontieres' estimate far exceeds the official figure and includes more than 700 children.",
+            "url": "http://www.bbc.co.uk/news/world-asia-42348214",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/59E2/production/_99201032_11584356-7402-4fe4-bba1-b99b987fd88d.jpg",
+            "publishedAt": "2017-12-14T05:12:26Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Biden comforts tearful McCain daughter",
+            "description": "The ex-VP offers words of advice on the senator's cancer during an emotional TV talk show encounter.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-42351576",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/10BBC/production/_99204586_042421616-1.jpg",
+            "publishedAt": "2017-12-14T11:57:01Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Filmmaker confesses to sexual misconduct",
+            "description": "Super Size Me documentary maker Morgan Spurlock tells of paying to settle a harassment case.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-42350064",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/180D8/production/_99202589_gettyimages-51033118.jpg",
+            "publishedAt": "2017-12-14T08:48:10Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Niki airline failure strands passengers",
+            "description": "Some 5,000 passengers are stuck abroad after the airline opens insolvency proceedings.",
+            "url": "http://www.bbc.co.uk/news/world-europe-42355776",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/17160/production/_99206549_nikinewafp14dec.jpg",
+            "publishedAt": "2017-12-14T14:09:35Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "EU leaders wrestle with migrant quotas",
+            "description": "There are sharp divisions over relocating asylum seekers in the EU.",
+            "url": "http://www.bbc.co.uk/news/world-europe-42352876",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/8700/production/_99206543_migmoriacampafp28nov17.jpg",
+            "publishedAt": "2017-12-14T11:56:53Z"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Roy Moore says Alabama election 'tainted'",
+            "description": "The Republican says \"immorality sweeps over our land\" in a fire-and-brimstone video.",
+            "url": "http://www.bbc.co.uk/news/world-us-canada-42346121",
+            "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/1517F/production/_99199368_tv043dfd560699.jpg",
+            "publishedAt": "2017-12-14T15:17:26Z"
+        }
+    ]
+}

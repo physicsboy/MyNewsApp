@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- NEWS APP -->
+<!-- https://www.sitepoint.com/fetching-data-third-party-api-vue-axios/ -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The greatest news app ever</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="appCSS.css">    
+  </head>
+  <body>
+
+    <div class="container" id="app">
+      <section class="callout secondary">
+        <h3 class="text-center">Headline News</h3>
+        <form>
+          <div class="row">
+            <div class="medium-6 columns">
+              <label>Country: 
+                <select v-model="country" v-on:change="getSources(country)">
+                  <option v-for="item in countries" :value="item.code">{{ item.name }}</option>
+                </select>
+              </label>
+            </div>
+            <div class="medium-6 columns">
+              <label>
+                News Source: 
+                <select v-model="source" v-on:change="getPosts(source)">
+                  <option v-for="item in sources" :value="item.id">{{ item.name }}</option>
+                </select>
+            </label>
+            </div>
+          </div>
+        </form>
+      </section>
+      <h5 class="text-center uppercase" v-if="!isLoaded()">{{ title }}</b></h5>
+      <div v-if="isLoaded()" class="loader"><img src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/images/loader-large.gif" alt="loader"></div>
+      
+      <article-list v-if="!isLoaded()" :results="results"></article-list>
+
+    </div>
+
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
